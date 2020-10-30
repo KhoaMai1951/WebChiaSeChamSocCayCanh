@@ -24,5 +24,5 @@ public class UserController {
 		model.addAttribute("user", userService.findById(1));
 		return "main-web/index";
 	}
-	
+
 }
